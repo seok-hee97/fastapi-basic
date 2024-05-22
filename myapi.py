@@ -30,12 +30,6 @@ class UpdateStudent(BaseModel):
 def index():
     return {"name": "First Data"}
 
- 
- 
-# @app.get("/get-student/{student_id}")
-# def get_student(student_id: int = Path(None, description ="The ID of the student you wnant to view", gt= 0, lt=3)):
-#     return students[student_id]
-
 @app.get("/students/{student_id}")
 async def get_student(student_id: int = None):
     if student_id is None:
