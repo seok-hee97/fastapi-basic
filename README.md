@@ -10,8 +10,19 @@ uvicorn main:app --reload
 main.py -> main
 
 - myapi.py : freecodecamp
-
 - mini-project dir : Hands On project
+
+
+
+#### Advantage
+1. it's just plain Python
+2. Async built-in
+3. Data validation built-in
+4. Type Python!
+5. Errors in JSON
+6. Authentication methods built-in
+7. Swagger and ReDoc built-in
+
 ### Reference
 - [(freecodecamp)FastAPI Course for Beginners](https://www.youtube.com/watch?v=tLKKmouUams)
 - [fastAPI-Tutorial - User Guide¶](https://fastapi.tiangolo.com/tutorial/)
